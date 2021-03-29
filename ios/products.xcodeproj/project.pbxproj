@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		00E356F31AD99517003FC87E /* dashboardTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* dashboardTests.m */; };
+		00E356F31AD99517003FC87E /* productsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* productsTests.m */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		155F9651DF2A618D0CE079F7 /* libPods-dashboard.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1368B7CF5F15E057BFB471F7 /* libPods-dashboard.a */; };
+		155F9651DF2A618D0CE079F7 /* libPods-products.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1368B7CF5F15E057BFB471F7 /* libPods-products.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
-		909C663B68F32BEDC809A772 /* libPods-dashboard-dashboardTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B89F909CC6FF2535C0C493E9 /* libPods-dashboard-dashboardTests.a */; };
+		909C663B68F32BEDC809A772 /* libPods-products-productsTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B89F909CC6FF2535C0C493E9 /* libPods-products-productsTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -22,27 +22,27 @@
 			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
-			remoteInfo = dashboard;
+			remoteInfo = products;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		00E356EE1AD99517003FC87E /* dashboardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = dashboardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00E356EE1AD99517003FC87E /* productsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = productsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		00E356F21AD99517003FC87E /* dashboardTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = dashboardTests.m; sourceTree = "<group>"; };
-		1368B7CF5F15E057BFB471F7 /* libPods-dashboard.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-dashboard.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		13B07F961A680F5B00A75B9A /* dashboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = dashboard.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = dashboard/AppDelegate.h; sourceTree = "<group>"; };
-		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = dashboard/AppDelegate.m; sourceTree = "<group>"; };
-		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = dashboard/Images.xcassets; sourceTree = "<group>"; };
-		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = dashboard/Info.plist; sourceTree = "<group>"; };
-		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = dashboard/main.m; sourceTree = "<group>"; };
-		69D268E90E90DDCEBE1B69E7 /* Pods-dashboard.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dashboard.debug.xcconfig"; path = "Target Support Files/Pods-dashboard/Pods-dashboard.debug.xcconfig"; sourceTree = "<group>"; };
-		6DCE14080CD72942E3A3B071 /* Pods-dashboard-dashboardTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dashboard-dashboardTests.release.xcconfig"; path = "Target Support Files/Pods-dashboard-dashboardTests/Pods-dashboard-dashboardTests.release.xcconfig"; sourceTree = "<group>"; };
-		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = dashboard/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		886D37D108808D22F0ECB37F /* Pods-dashboard.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dashboard.release.xcconfig"; path = "Target Support Files/Pods-dashboard/Pods-dashboard.release.xcconfig"; sourceTree = "<group>"; };
-		B89F909CC6FF2535C0C493E9 /* libPods-dashboard-dashboardTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-dashboard-dashboardTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		DF00C833F00D4BB8950B9D39 /* Pods-dashboard-dashboardTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dashboard-dashboardTests.debug.xcconfig"; path = "Target Support Files/Pods-dashboard-dashboardTests/Pods-dashboard-dashboardTests.debug.xcconfig"; sourceTree = "<group>"; };
+		00E356F21AD99517003FC87E /* productsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = productsTests.m; sourceTree = "<group>"; };
+		1368B7CF5F15E057BFB471F7 /* libPods-products.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-products.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07F961A680F5B00A75B9A /* products.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = products.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = products/AppDelegate.h; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = products/AppDelegate.m; sourceTree = "<group>"; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = products/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = products/Info.plist; sourceTree = "<group>"; };
+		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = products/main.m; sourceTree = "<group>"; };
+		69D268E90E90DDCEBE1B69E7 /* Pods-products.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-products.debug.xcconfig"; path = "Target Support Files/Pods-products/Pods-products.debug.xcconfig"; sourceTree = "<group>"; };
+		6DCE14080CD72942E3A3B071 /* Pods-products-productsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-products-productsTests.release.xcconfig"; path = "Target Support Files/Pods-products-productsTests/Pods-products-productsTests.release.xcconfig"; sourceTree = "<group>"; };
+		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = products/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		886D37D108808D22F0ECB37F /* Pods-products.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-products.release.xcconfig"; path = "Target Support Files/Pods-products/Pods-products.release.xcconfig"; sourceTree = "<group>"; };
+		B89F909CC6FF2535C0C493E9 /* libPods-products-productsTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-products-productsTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF00C833F00D4BB8950B9D39 /* Pods-products-productsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-products-productsTests.debug.xcconfig"; path = "Target Support Files/Pods-products-productsTests/Pods-products-productsTests.debug.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -51,7 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				909C663B68F32BEDC809A772 /* libPods-dashboard-dashboardTests.a in Frameworks */,
+				909C663B68F32BEDC809A772 /* libPods-products-productsTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,20 +59,20 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				155F9651DF2A618D0CE079F7 /* libPods-dashboard.a in Frameworks */,
+				155F9651DF2A618D0CE079F7 /* libPods-products.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		00E356EF1AD99517003FC87E /* dashboardTests */ = {
+		00E356EF1AD99517003FC87E /* productsTests */ = {
 			isa = PBXGroup;
 			children = (
-				00E356F21AD99517003FC87E /* dashboardTests.m */,
+				00E356F21AD99517003FC87E /* productsTests.m */,
 				00E356F01AD99517003FC87E /* Supporting Files */,
 			);
-			path = dashboardTests;
+			path = productsTests;
 			sourceTree = "<group>";
 		};
 		00E356F01AD99517003FC87E /* Supporting Files */ = {
@@ -83,7 +83,7 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		13B07FAE1A68108700A75B9A /* dashboard */ = {
+		13B07FAE1A68108700A75B9A /* products */ = {
 			isa = PBXGroup;
 			children = (
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
@@ -93,16 +93,16 @@
 				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
 				13B07FB71A68108700A75B9A /* main.m */,
 			);
-			name = dashboard;
+			name = products;
 			sourceTree = "<group>";
 		};
 		1DBE800FD6F9C84262FD75FF /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				69D268E90E90DDCEBE1B69E7 /* Pods-dashboard.debug.xcconfig */,
-				886D37D108808D22F0ECB37F /* Pods-dashboard.release.xcconfig */,
-				DF00C833F00D4BB8950B9D39 /* Pods-dashboard-dashboardTests.debug.xcconfig */,
-				6DCE14080CD72942E3A3B071 /* Pods-dashboard-dashboardTests.release.xcconfig */,
+				69D268E90E90DDCEBE1B69E7 /* Pods-products.debug.xcconfig */,
+				886D37D108808D22F0ECB37F /* Pods-products.release.xcconfig */,
+				DF00C833F00D4BB8950B9D39 /* Pods-products-productsTests.debug.xcconfig */,
+				6DCE14080CD72942E3A3B071 /* Pods-products-productsTests.release.xcconfig */,
 			);
 			name = Pods;
 			path = Pods;
@@ -112,8 +112,8 @@
 			isa = PBXGroup;
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
-				1368B7CF5F15E057BFB471F7 /* libPods-dashboard.a */,
-				B89F909CC6FF2535C0C493E9 /* libPods-dashboard-dashboardTests.a */,
+				1368B7CF5F15E057BFB471F7 /* libPods-products.a */,
+				B89F909CC6FF2535C0C493E9 /* libPods-products-productsTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -128,9 +128,9 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
-				13B07FAE1A68108700A75B9A /* dashboard */,
+				13B07FAE1A68108700A75B9A /* products */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
-				00E356EF1AD99517003FC87E /* dashboardTests */,
+				00E356EF1AD99517003FC87E /* productsTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				1DBE800FD6F9C84262FD75FF /* Pods */,
@@ -143,8 +143,8 @@
 		83CBBA001A601CBA00E9B192 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				13B07F961A680F5B00A75B9A /* dashboard.app */,
-				00E356EE1AD99517003FC87E /* dashboardTests.xctest */,
+				13B07F961A680F5B00A75B9A /* products.app */,
+				00E356EE1AD99517003FC87E /* productsTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -152,9 +152,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		00E356ED1AD99517003FC87E /* dashboardTests */ = {
+		00E356ED1AD99517003FC87E /* productsTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "dashboardTests" */;
+			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "productsTests" */;
 			buildPhases = (
 				594EE592FEC458615E414507 /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
@@ -168,14 +168,14 @@
 			dependencies = (
 				00E356F51AD99517003FC87E /* PBXTargetDependency */,
 			);
-			name = dashboardTests;
-			productName = dashboardTests;
-			productReference = 00E356EE1AD99517003FC87E /* dashboardTests.xctest */;
+			name = productsTests;
+			productName = productsTests;
+			productReference = 00E356EE1AD99517003FC87E /* productsTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		13B07F861A680F5B00A75B9A /* dashboard */ = {
+		13B07F861A680F5B00A75B9A /* products */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "dashboard" */;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "products" */;
 			buildPhases = (
 				9A86C182173007D515913AD6 /* [CP] Check Pods Manifest.lock */,
 				FD10A7F022414F080027D42C /* Start Packager */,
@@ -190,9 +190,9 @@
 			);
 			dependencies = (
 			);
-			name = dashboard;
-			productName = dashboard;
-			productReference = 13B07F961A680F5B00A75B9A /* dashboard.app */;
+			name = products;
+			productName = products;
+			productReference = 13B07F961A680F5B00A75B9A /* products.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -212,7 +212,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "dashboard" */;
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "products" */;
 			compatibilityVersion = "Xcode 12.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -225,8 +225,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				13B07F861A680F5B00A75B9A /* dashboard */,
-				00E356ED1AD99517003FC87E /* dashboardTests */,
+				13B07F861A680F5B00A75B9A /* products */,
+				00E356ED1AD99517003FC87E /* productsTests */,
 			);
 		};
 /* End PBXProject section */
@@ -271,15 +271,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-dashboard/Pods-dashboard-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-products/Pods-products-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-dashboard/Pods-dashboard-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-products/Pods-products-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-dashboard/Pods-dashboard-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-products/Pods-products-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		594EE592FEC458615E414507 /* [CP] Check Pods Manifest.lock */ = {
@@ -297,7 +297,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-dashboard-dashboardTests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-products-productsTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -310,15 +310,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-dashboard/Pods-dashboard-resources-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-products/Pods-products-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-dashboard/Pods-dashboard-resources-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-products/Pods-products-resources-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-dashboard/Pods-dashboard-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-products/Pods-products-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		9A86C182173007D515913AD6 /* [CP] Check Pods Manifest.lock */ = {
@@ -336,7 +336,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-dashboard-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-products-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -349,15 +349,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-dashboard-dashboardTests/Pods-dashboard-dashboardTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-products-productsTests/Pods-products-productsTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-dashboard-dashboardTests/Pods-dashboard-dashboardTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-products-productsTests/Pods-products-productsTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-dashboard-dashboardTests/Pods-dashboard-dashboardTests-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-products-productsTests/Pods-products-productsTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		C30C53988A90423932DCBA6A /* [CP] Copy Pods Resources */ = {
@@ -366,15 +366,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-dashboard-dashboardTests/Pods-dashboard-dashboardTests-resources-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-products-productsTests/Pods-products-productsTests-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-dashboard-dashboardTests/Pods-dashboard-dashboardTests-resources-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-products-productsTests/Pods-products-productsTests-resources-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-dashboard-dashboardTests/Pods-dashboard-dashboardTests-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-products-productsTests/Pods-products-productsTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		FD10A7F022414F080027D42C /* Start Packager */ = {
@@ -403,7 +403,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				00E356F31AD99517003FC87E /* dashboardTests.m in Sources */,
+				00E356F31AD99517003FC87E /* productsTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -421,7 +421,7 @@
 /* Begin PBXTargetDependency section */
 		00E356F51AD99517003FC87E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 13B07F861A680F5B00A75B9A /* dashboard */;
+			target = 13B07F861A680F5B00A75B9A /* products */;
 			targetProxy = 00E356F41AD99517003FC87E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -429,14 +429,14 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DF00C833F00D4BB8950B9D39 /* Pods-dashboard-dashboardTests.debug.xcconfig */;
+			baseConfigurationReference = DF00C833F00D4BB8950B9D39 /* Pods-products-productsTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = dashboardTests/Info.plist;
+				INFOPLIST_FILE = productsTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -450,17 +450,17 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/dashboard.app/dashboard";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/products.app/products";
 			};
 			name = Debug;
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6DCE14080CD72942E3A3B071 /* Pods-dashboard-dashboardTests.release.xcconfig */;
+			baseConfigurationReference = 6DCE14080CD72942E3A3B071 /* Pods-products-productsTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
-				INFOPLIST_FILE = dashboardTests/Info.plist;
+				INFOPLIST_FILE = productsTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -474,19 +474,19 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/dashboard.app/dashboard";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/products.app/products";
 			};
 			name = Release;
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 69D268E90E90DDCEBE1B69E7 /* Pods-dashboard.debug.xcconfig */;
+			baseConfigurationReference = 69D268E90E90DDCEBE1B69E7 /* Pods-products.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_BITCODE = NO;
-				INFOPLIST_FILE = dashboard/Info.plist;
+				INFOPLIST_FILE = products/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -497,7 +497,7 @@
 					"-lc++",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = dashboard;
+				PRODUCT_NAME = products;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -506,12 +506,12 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 886D37D108808D22F0ECB37F /* Pods-dashboard.release.xcconfig */;
+			baseConfigurationReference = 886D37D108808D22F0ECB37F /* Pods-products.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				INFOPLIST_FILE = dashboard/Info.plist;
+				INFOPLIST_FILE = products/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -522,7 +522,7 @@
 					"-lc++",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = dashboard;
+				PRODUCT_NAME = products;
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
@@ -654,7 +654,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "dashboardTests" */ = {
+		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "productsTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				00E356F61AD99517003FC87E /* Debug */,
@@ -663,7 +663,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "dashboard" */ = {
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "products" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				13B07F941A680F5B00A75B9A /* Debug */,
@@ -672,7 +672,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "dashboard" */ = {
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "products" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				83CBBA201A601CBA00E9B192 /* Debug */,
